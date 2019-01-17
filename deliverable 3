@@ -1,0 +1,17 @@
+#Chaos.py
+#1/17/19
+#Phoenix Iserman
+#a simple program with chaotic behavior
+
+def main():
+    print("this program illustrates a chaotic function")
+    x = eval(input("enter a number between 0 and 1: "))
+    for i in range(10) :
+        x = 2.0 * x * (1 - x)
+        print(x)
+
+main()
+
+# The number doesn't stay the same through the whole loop, but eventually corrects
+# itself to the number 0.5 and stays there. This is opposed to the number changing
+# erratically with all of the changes of the number.
