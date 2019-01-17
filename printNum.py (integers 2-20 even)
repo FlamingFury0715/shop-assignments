@@ -1,0 +1,9 @@
+# printNum.py
+# 1/17/19
+# Phoenix Iserman
+# prints even numbers 2 through 20
+
+def main():
+    print("2, 4, 6, 8, 10, 12, 1,4 16, 18, 20")
+    
+main()
