@@ -1,4 +1,4 @@
-#Chaos.py
+#ChaosExtended.py
 #1/17/19
 #Phoenix Iserman
 #a simple program with chaotic behavior
